@@ -1,0 +1,67 @@
+header  .banner img{
+    width: 120px;
+    padding: 20px;
+}
+
+header .banner{
+    display: flex;
+    align-items: center;
+}
+
+.page-home #first_flex{
+    background-color: aqua;
+}
+
+.page-contact #second_flex{
+    background-color:aqua
+}
+
+.flexbox {
+    margin: 10px;
+    height: 30px;
+    inline-size: 13%;
+    border: 2px solid aqua;
+    text-align: center;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#first_flex {
+    margin-bottom: 0px;
+}
+
+#second_flex {
+    margin-top: 0px;
+}
+
+.form-row {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, form textarea{
+    width: 250px;
+}
+
+label{
+    width: 150px;
+}
+
+button {
+    width: 160px;
+}
+
+.page-home main{
+    margin: 25px
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
